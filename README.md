@@ -29,4 +29,4 @@ convertMainを実行
   wire  m_mem_io_rddata_MPORT_en; // @[SimpleMem.scala 7:18]
 ```
 
-`Main.v`と`simple_mem_data.mem`をVivadoに入れる．Nexys4では動作確認済．
+`Main.v`と`simple_mem_data.mem`をVivadoに入れて適当になんやかんやする．Nexys4では動作確認済．
