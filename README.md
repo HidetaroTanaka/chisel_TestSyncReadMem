@@ -2,6 +2,8 @@
 
 ChiselのSyncReadMemをFPGAで使おう的なやつ
 
+Vecを使ってマスク書き込みをするとメモリファイルが複数必要になるのでChiselでメモリ作ってFPGAドーン計画は1日で頓挫しました
+
 メモリ書き込みを手動でやる前提なので`wren`の挙動に注意
 
 リポジトリをクローン
@@ -32,3 +34,7 @@ convertMainを実行
 ```
 
 `Main.v`と`simple_mem_data.mem`をVivadoに入れて適当になんやかんやする．Nexys4では動作確認済．
+
+参考文献
+
+1. https://github.com/diningyo/introductory-guide-to-chisel
