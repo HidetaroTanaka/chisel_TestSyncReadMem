@@ -2,6 +2,8 @@
 
 ChiselのSyncReadMemをFPGAで使おう的なやつ
 
+メモリ書き込みを手動でやる前提なので`wren`の挙動に注意
+
 リポジトリをクローン
 ```sh
 git clone https://github.com/HidetaroTanaka/chisel_TestSyncReadMem
